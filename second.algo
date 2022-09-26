@@ -1,0 +1,30 @@
+ALGORITHM task_3
+VAR
+    
+   CH : STRING;
+   day,years : INTEGER :=0;
+    month : STRING;
+    i,j,k : INTEGER;
+
+BEGIN
+
+ Read (CH);
+ Read(day);
+ Read(years);
+
+    Read(i);
+    Read(j);
+    Read(k);
+
+SWITCH (month) DO
+   case 1 : Write("janvier"); BREAK;
+   case 2 : Write("fevrier"); BREAK;
+   case 3 : Write("mars"); BREAK;
+   case 4 : Write("avril"); BREAK;
+   case 5 : Write("mai"); BREAK;
+   default : Write("invalide")
+END_SWITCH
+
+
+
+END
